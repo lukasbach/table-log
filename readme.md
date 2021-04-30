@@ -15,7 +15,7 @@ import { CliTable } from 'table-log';
 
 Then, initialize a new table with `table = CliTable.createNoBorderTable()`,
 and invoke `table.log(...lines)` to log a new line. The table is automatically adjusted
-whenever a longer column is logged.
+whenever a new longest cell is logged.
 
 Complete example:
 

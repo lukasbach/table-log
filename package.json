@@ -8,6 +8,16 @@
   "author": "Lukas Bach <lbach@outlook.de>",
   "license": "MIT",
   "private": false,
+  "keywords": [
+    "cli",
+    "logging",
+    "typescript",
+    "typed",
+    "table",
+    "tabular",
+    "log",
+    "ink"
+  ],
   "dependencies": {
     "ayemitter": "^1.0.2",
     "ayemitter-hook": "^1.0.2",
