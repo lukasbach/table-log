@@ -1,0 +1,31 @@
+{
+  "name": "table-log",
+  "version": "1.0.0",
+  "description": "CLI logging utility that logs lines as vertically aligned tabular data",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": "https://github.com/lukasbach/table-log",
+  "author": "Lukas Bach <lbach@outlook.de>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "ayemitter": "^1.0.2",
+    "ayemitter-hook": "^1.0.2",
+    "cli-table": "^0.3.6",
+    "ink": "^3.0.8",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@lukasbach/tsconfig": "^0.1.0",
+    "@types/cli-table": "^0.3.0",
+    "@types/node": "^15.0.1",
+    "@types/react": "^17.0.4",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "start": "ts-node src/demo/demo2.ts",
+    "build": "tsc",
+    "prepare": "tsc"
+  }
+}
