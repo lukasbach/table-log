@@ -1,6 +1,6 @@
 {
   "name": "table-log",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI logging utility that logs lines as vertically aligned tabular data",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
